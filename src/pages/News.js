@@ -13,7 +13,7 @@ function News(props) {
     section_name,
   } = article;
   return (
-    <Card style={{ width: "1000px" }} className="custom-card-body">
+    <Card className="custom-card-body">
       <Card.Header>{headline.main}</Card.Header>
       <Card.Body>
         <Card.Title>{abstract}</Card.Title>
